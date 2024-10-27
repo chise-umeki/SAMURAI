@@ -1,3 +1,38 @@
+▼HTML
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>最低限のHTML</title>
+    <link rel="stylesheet" href="styles.css">
+    
+
+    <style></style>
+</head>
+<body>
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+ <div>
+ 
+    <div style="width: 100px; height: 100px; background-color: gray;"></div>
+
+
+ <button>ボタン</button>
+ 
+ 
+     <h1 id="title">タイトル</h1>
+     <p class="message">こんにちは</p>
+     <script src="script.js"></script>
+   </div> 
+</body>
+</html>
+
+
+
+
+▼JavaScript
 $(function() {
   const title = $('#title').text();
   const list = $('.message').text();
